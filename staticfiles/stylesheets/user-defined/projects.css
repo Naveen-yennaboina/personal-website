@@ -1,6 +1,13 @@
 body{
     background-color: #f2ebe9;
+    height: 100%;
+           margin: 0;
 }
+        html{
+        height: 100%;
+        margin: 0;
+        }
+      
 /* Featurettes
 ------------------------- */
 
@@ -34,5 +41,38 @@ a:active{
   color: yellow;
 }
 
+.nav-masthead .nav-link {
+  padding: .25rem 0;
+  font-weight: 700;
+  color: rgba(255, 255, 255, .5);
+  background-color: transparent;
+  border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: rgba(255, 255, 255, .25);
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritance from `body` */
+}
+.nav-masthead .active {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+.cover-container {
+  max-width: 42em;
+}
+.wrapper {
+   text-align: center;
+}
 @media (max-width: 480px){
 }
