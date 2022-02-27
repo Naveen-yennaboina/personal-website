@@ -31,6 +31,22 @@
       .cover-container {
           max-width: 42em;
       }
+      .hrline{
+         border: 1px solid;
+         border-color: rgb(243, 238, 248);
+         color: rgb(15, 199, 255);
+         margin: 1% 25% 1% 25%;
+      }
+      .mb-xl-5{
+          margin-top: 50px;
+          margin-bottom: 10px;
+        }
+      @media (max-width: 400px) and (max-height: 700px){
+        .mb-xl-5{
+          margin-top: -30px;
+          margin-bottom: -20px;
+        }
+      }
     </style>
   </head>
   <body>
@@ -52,7 +68,7 @@
       </div>
     
     <br/><br/>
-    <h1 class="text-center display-3 mt-3 mb-5 headname text-white"><strong>Educational Details</strong></h1>
+    <h1 class="text-center display-3 mb-xl-5 headname text-white"><strong>Educational Details</strong></h1>
 
     <br/>
     
@@ -62,7 +78,7 @@
           <div class="text-center">
             <img src="{% static "images/Anurag Engineering College 2.png" %}" width="200px" height="200px" />
             <h2 class="text-center fs-sm-5 subhead">Anurag Engineering College</h2>
-            <hr>
+            <hr class="hrline"><br/>
             <br/><br/>
           </div>
         </div>
@@ -96,7 +112,7 @@
     <div class="container-fluid">
       <div class="container">
         <h2 class="text-center subhead">Resonance Junior College of Science</h2>
-        <hr>
+        <hr class="hrline"><br/>
         <br/>
         <dl class="row lh-base fs-4 me-2" style="color: #f5b8e5;">
           <dt class="col-sm-3">Degree :</dt>
@@ -125,7 +141,7 @@
     <div class="container-fluid">
       <div class="container">
         <h2 class="text-center subhead">Vikas High School</h2>
-        <hr>
+        <hr class="hrline"><br/>
         <br/>
         <dl class="row lh-base fs-4 me-2" style="color: #f5b8e5;">
           <dt class="col-sm-3">Degree :</dt>
