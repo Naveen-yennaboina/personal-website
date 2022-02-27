@@ -1,0 +1,152 @@
+<!doctype html>
+{% load static %}
+<html lang="en">
+  <head>
+    <title>Projects</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="{% static "stylesheets/bootstrap/bootstrap.min.css" %}" />
+    <link rel="stylesheet" href="{% static "stylesheets/user-defined/projects.css" %}" />
+     <script src="{% static "stylesheets/bootstrap/FontAwesomeKit.js " %}"></script>
+    <script src="{% static "stylesheets/bootstrap/FontAwesomeKit.js" %}"></script>
+  </head>
+  <body style="background-color: #f2ebe9;">
+    <!-----------------------Navigation Bar-------------------->
+    
+    <nav class="navbar navbar-expand-sm navbar-dark bg-danger">
+      <div class="container-fluid">
+        <a class="navbar-brand d-flex" href="#">
+          <img src="{% static "images/naveen.png" %}" style="border-radius: 120px; margin-top: 5.4px;" alt="" width="50" height="50" class="d-inline-block align-text-top me-1">
+          <p class="mt-3">Naveen Yennaboina</p>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <div class="collapse navbar-collapse" id="navbarsExample03">
+          <ul class="navbar-nav text-center me-auto mb-2 mb-sm-0">
+            <li class="nav-item">
+              <a class="nav-link" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/education/Education/">Education</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"  href="/resume/Resume/">Resume</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/contact/Contact/">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-------------------------Main Body------------------->
+    <br/><br/>
+    <h1 class="text-center display-3 mt-sm-5 mb-5" style="color: brown;"><strong>Project Details</strong></h1>
+    <br/>
+    <div class="container-fluid">
+        <h2>Personal Projects</h2>
+    </div>
+    <hr class="mb-5">
+  
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading ms-3">Bank Management System</h2>
+        <div class="gap-3 ms-3">
+           <p class="lh-base fs-4" style="color: #634a4a;"><b>Description: </b>Bank Management System is python project. here we can perform the actions that we usually see in the Banks
+                we can do actions like “deposit, money transfer, applying bank loan, paying bank loan, edit personal information and we can see transaction history”.</p>
+           <p class="lh-base fs-4" style="color: #634a4a;"><b>Prpject Link	:</b> <a href="https://github.com/Naveen-yennaboina/newone-Repository-1.git" target="_blank"> Click here</a></p>
+           <p class="lh-base fs-4" style="color: #634a4a;"><b>Technologies used	:</b>	Python, MySQL.</p>
+           <p class="lh-base fs-4" style="color: #634a4a;"><b>Operating System	:</b>	Windows</p>
+           <p class="lh-base fs-4" style="color: #634a4a;"><b>IDE	:</b>	PyCharm</p>
+        </div>
+      </div>
+      <div class="col-md-5">
+        <br/><br/>
+        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="{% static "images/bank.jpg" %}" />
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading ms-3">Hospital Management System</h2>
+        <div class="gap-3 ms-3">
+            <p class="lh-base fs-4" style="color: #634a4a;"><b>Description: </b> Hospital Management System is java project. Here we can perform the actions that we usually 
+                see in the hospital, those are “Login, Add Patient, Enquiry, Hire Doctors” etc.</p>
+            <p class="lh-base fs-4" style="color: #634a4a;"><b>Prpject Link	:</b> <a href="https://github.com/Naveen-yennaboina/newone-Repository-1.git" target="_blank"> Click here</a></p>
+            <p class="lh-base fs-4" style="color: #634a4a;"><b>Technologies used	:</b>	Java, MySQL.</p>
+            <p class="lh-base fs-4" style="color: #634a4a;"><b>Operating System	:</b>	Windows</p>
+            <p class="lh-base fs-4" style="color: #634a4a;"><b>IDE	:</b>	IntelliJ IDEA</p>
+         </div>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <br/><br/>
+        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="{% static "images/Hospital.jpeg" %}" />
+
+      </div>
+    </div>
+    <br/><br/><br/>
+
+    <div class="container-fluid mt-5">
+      <h2>Academic Projects</h2>
+  </div>
+  <hr class="mb-5"><br/><br/>
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading ms-3">Coordinated Active Power Control between Shunt and Series Converters of UPQC for Distributed Generation Applications</h2>
+        <div class="gap-3 ms-3">
+            <p class="lh-base fs-4" style="color: #634a4a;"><b>Description: </b> The objective of this project is co-ordinate active power sharing between shunt and series converters
+                 of unified power quality conditioner (UPQC) for distributed generation applications. Actually, UPQC is the best FACT device to 
+                 improve power quality in both transmission side and distribution side. It mitigates voltage and current oscillations occur due 
+                 to any abnormal fault conditions.</p>
+            <p class="lh-base fs-4" style="color: #634a4a;"><b>Technologies used	:</b>	Matlab</p>
+            <p class="lh-base fs-4" style="color: #634a4a;"><b>Operating System	:</b>	Windows</p>
+         </div>
+      </div>
+      <div class="col-md-5">
+        <br/><br/>
+        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto rounded" width="500px" height="500px" src="{% static "images/acadomic-projects.jpg" %}" />
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+    <!-------------------------End of Main----------------->
+    <br/><br/><br/>
+
+    <footer class="mastfoot mt-auto p-3 bg-dark">
+      <div class="inner text-center pt-3">
+        <p class="text-white">
+          <a class="text-white" href="/"><i class="fas fa-home"></i> Home </a> &nbsp;&nbsp;&nbsp;
+          <a class="text-white" href="/education/Education/"><i class="fas fa-book-open"></i> Education </a>  &nbsp;&nbsp;&nbsp;
+          <a class="text-white" href="/resume/Resume"><i class="fas fa-file"></i> Resume</a>
+        </p>
+      </div>
+      <div class="inner text-center">
+        <p class="text-white">
+          <a class="text-white" href="/contact/Contact/"><i class="fas fa-envelope"></i> Contact</a>
+        </p>
+      </div>
+    </footer>
+
+
+     <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="{% static "stylesheets/bootstrap/jquery-3.3.1.slim.min.js" %}"></script>
+    <script src="{% static "stylesheets/bootstrap/popper.min.js" %}"></script>
+    <script src="{% static "stylesheets/bootstrap/bootstrap.min.js"%}"></script>
+  </body>
+</html>

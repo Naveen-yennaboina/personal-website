@@ -1,0 +1,109 @@
+<!doctype html>
+{% load static %}
+<html lang="en">
+  <head>
+    <title>Resume</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="{% static "stylesheets/bootstrap/bootstrap.min.css" %}">
+    <link rel="stylesheet" href="{% static "stylesheets/user-defined/resume.css" %}" />
+    <script src="{% static "stylesheets/bootstrap/FontAwesomeKit.js " %}"></script>
+    <script src="{% static "stylesheets/bootstrap/FontAwesomeKit.js" %}"></script>
+    <style type="text/css">
+        body{
+            background-image: url("{% static "images/martin-adams-YA-DFlSzXBE-unsplash.jpg" %}");
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed; 
+        }
+    </style>
+  </head>
+  <body>
+    <!-----------------------Navigation Bar-------------------->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-danger">
+      <div class="container-fluid">
+        <a class="navbar-brand d-flex" href="#">
+          <img src="{% static "images/naveen.png" %}" style="border-radius: 120px; margin-top: 5.4px;" alt="" width="50" height="50" class="d-inline-block align-text-top me-1">
+          <p class="mt-3">Naveen Yennaboina</p>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <div class="collapse navbar-collapse" id="navbarsExample03">
+          <ul class="navbar-nav text-center me-auto mb-2 mb-sm-0">
+            <li class="nav-item">
+              <a class="nav-link" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/education/Education/">Education</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/projects/Projects/">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="">Resume</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/contact/Contact/">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-----------------------End Of Navigation Bar------------->
+
+    <!-----------------------Main Start------------------------>
+    
+    <div class="container-fluid mt-sm-5">
+      <div class="container">
+        <br/><br/>
+        <h1 class="display-3" style="color:coral;"><b>Resume</b></h1>
+        <br/>
+        <h2 class="mb-3">Career Objective</h2>
+        <p class="lh-base fs-4">Looking forward to place myself in an enivermint that can Translate me into a full-fledged professional one.</p>
+      </div>
+    </div>
+
+    <div class="container-fluid mt-5">
+      <div class="container">
+        <div class="hello">
+          <h2 style="color: coral;" class="text-center">Download Resume</h2>
+          <br/><br/>
+          <p class="lh-sm-base fs-4 text-center">Naveen-Resume.docx  -  <a id="ancer" href="{% static "images/Naveen-Resume.docx " %}" download="Naveen-Resume.docx">Download</a></p><br/>
+          <p class="lh-sm-base fs-4 text-center">Naveen-Resume.pdf  -  <a id="ancer" href="{% static "images/Naveen-Resume.pdf" %}" download="Naveen-Resume.pdf" target="_blank">Download</a></p>
+        </div>
+            
+      </div>
+    </div>
+    <br/><br/>
+    <!-----------------------Main End-------------------------->
+    <br/><br/><br/>
+
+    <footer class="mastfoot mt-auto p-3 bg-dark">
+      <div class="inner text-center pt-3">
+        <p class="text-white">
+          <a class="text-white" href="/"><i class="fas fa-home"></i>  Home</a>&nbsp;&nbsp;&nbsp;
+          <a class="text-white" href="/education/Education"><i class="fas fa-book-open"></i> Education </a>&nbsp;&nbsp;&nbsp;
+          <a class="text-white" href="/projects/Projects/"><i class="fas fa-project-diagram"></i>  Projects</a>
+        </p>
+      </div>
+      <div class="inner text-center">
+        <p class="text-white">
+          <a class="text-white" href="/contact/Contact/"><i class="fas fa-envelope"></i> Contact</a>
+        </p>
+      </div>
+    </footer>
+
+       
+     <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="{% static "stylesheets/bootstrap/jquery-3.3.1.slim.min.js" %}"></script>
+    <script src="{% static "stylesheets/bootstrap/popper.min.js" %}"></script>
+    <script src="{% static "stylesheets/bootstrap/bootstrap.min.js"%}"></script>
+  </body>
+</html>  

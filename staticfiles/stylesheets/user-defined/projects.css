@@ -1,0 +1,38 @@
+body{
+    background-color: #f2ebe9;
+}
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+    margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+  }
+  
+  /* Thin out the marketing headings */
+  .featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    margin-bottom: 20px;
+    color: rgb(151, 50, 3);
+    font-weight: bolder;
+    /* rtl:remove */
+    letter-spacing: -.05rem;
+  }
+
+.container-fluid h2{
+  background-color: rgb(193, 193, 247);
+  border-radius: 3%;
+  padding: 1%;
+}
+a{
+  text-decoration: none;
+}
+a:hover{
+  color: brown;
+}
+a:active{
+  color: yellow;
+}
+
+@media (max-width: 480px){
+}

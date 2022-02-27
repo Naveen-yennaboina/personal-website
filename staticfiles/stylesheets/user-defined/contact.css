@@ -1,0 +1,41 @@
+body{
+    background-color: #f2ebe9;
+}
+hr{
+    width: 50%;
+    margin: 0 25% 5% 25%;
+    border-top: 3px solid red;
+}
+.sociallinnks{
+    display: flex;
+    margin: 5% 30% 1% 39%;
+    padding: 4%;
+}
+
+/*-----------------Ancher Tags----------------*/
+#anchertag:hover{
+    color: slateblue;
+}
+a:hover{
+    color: rgb(245, 142, 7);
+}
+a{
+    text-decoration: none;
+}
+
+/*----------------------media quries----------*/
+
+@media (min-width: 720px) and (min-width: 992px) and (min-width: 1200px){
+   .submit{
+       margin-left: 20%;
+       margin-right: 20%;
+   }
+}
+
+@media (min-width: 480px){
+    .sociallinnks{
+        display: flex;
+        margin: 5% 30% 1% 35%;
+        padding: 4%;
+    }
+}

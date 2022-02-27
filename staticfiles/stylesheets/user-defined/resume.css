@@ -1,0 +1,23 @@
+body{
+    background-image: url("images/martin-adams-YA-DFlSzXBE-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+}
+
+.container div{
+   border-style: dashed;
+   border-color: coral;
+   border-radius: 10px;
+   padding: 4%;
+}
+
+a{
+    text-decoration: none;
+  }
+  a:hover{
+    color: brown;
+  }
+  a:active{
+    color: yellow;
+  }

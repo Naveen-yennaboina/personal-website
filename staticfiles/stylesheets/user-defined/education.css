@@ -1,0 +1,109 @@
+.clgname{
+  text-align: center;
+  color:rgb(245, 243, 243);
+}
+.intro1{
+  margin: 2% 2% 2% 2%;
+}
+a{
+  text-decoration: none;
+}
+a:hover{
+  color: brown;
+}
+a:active{
+  color: yellow;
+}
+
+.nav-masthead .nav-link {
+   padding: .25rem 0;
+   font-weight: 700;
+   color: rgba(255, 255, 255, .5);
+   background-color: transparent;
+   border-bottom: .25rem solid transparent;
+ }
+ 
+ .nav-masthead .nav-link:hover,
+ .nav-masthead .nav-link:focus {
+   border-bottom-color: rgba(255, 255, 255, .25);
+ }
+ 
+ .nav-masthead .nav-link + .nav-link {
+   margin-left: 1rem;
+ }
+ /* Custom default button */
+ .btn-secondary,
+ .btn-secondary:hover,
+ .btn-secondary:focus {
+   color: #333;
+   text-shadow: none; /* Prevent inheritance from `body` */
+ }
+ .nav-masthead .active {
+   color: #fff;
+   border-bottom-color: #fff;
+ }
+ .cover-container {
+   max-width: 42em;
+ }
+ .wrapper {
+    text-align: center;
+ }
+ .subhead{
+   color: rgb(247, 245, 154);
+}
+/*--------------------------------------------------------------------------------*/
+
+@media (max-width: 1400px) and (min-width: 1300px) {
+    .headname{
+       color: coral;
+    }
+}
+@media (max-width: 1300px) and (min-width: 1200px) {
+    .headname{
+       color: coral;
+    }
+}
+@media (max-width: 1200px) and (min-width: 1100px) {
+     .headname{
+       color: coral;
+    }
+}
+
+@media (max-width: 1100px) and (min-width: 1001px) {
+    .headname{
+       color: coral;
+    }
+}
+
+@media (max-width: 1000px) and (min-width: 901px) {
+  .headname{
+       color: coral;
+    }
+}
+
+@media (max-width: 900px) and (min-width: 768px) {
+  .headname{
+       color: coral;
+    }
+}
+
+@media (max-width: 767px) and (min-width: 651px) {
+ .headname{
+       color: coral;
+    }
+}
+
+@media (max-width: 650px) and (min-width: 501px) {
+    .headname{
+       color: coral;
+    }
+}
+
+@media (max-width: 500px) and (min-width: 300px) {
+    .headname{
+       color: blue;
+    }
+    .subhead{
+       color: coral;
+    }
+}

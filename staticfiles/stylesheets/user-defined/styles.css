@@ -1,0 +1,110 @@
+/*---------------------------------------------------------------------------*/
+body{
+    background-color: #f2ebe9;
+}
+.hrline{
+  border: 1px solid;
+  border-color: blueviolet;
+  color: blueviolet;
+  margin: 1% 25% 1% 25%;
+}
+.technical{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.tablemain{
+    align-items: top;
+    text-align: left;
+    margin: auto;
+}
+.tablemain td, .tablemain td * {
+  vertical-align: top;
+}
+/*--------------------------intro------------------------------*/
+.intro1a img{
+  border-radius: 6%;
+}
+.intro1b{
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+}
+a:hover{
+  color: brown;
+}
+a:active{
+  color: yellow;
+}
+/*-------------------------------------------------------------*/
+
+.hero{
+ padding-top: 180px;
+}
+
+/* / X-Small devices (portrait phones, less than 576px) */
+/* / No media query for `xs` since this is the default in Bootstrap */
+
+/* / Small devices (landscape phones, 576px and up) */
+
+@media (max-width: 640px) and (min-width: 360px) {
+  .hero{
+     padding-top: 120px;
+  }
+}
+
+@media (max-width: 1400px) and (min-width: 1300px) {
+ .hero{
+      padding-top: 180px;
+    }
+}
+@media (max-width: 1300px) and (min-width: 1200px) {
+ .hero{
+      padding-top: 180px;
+    }
+}
+@media (max-width: 1200px) and (min-width: 1100px) {
+ .hero{
+       padding-top: 180px;
+    }
+}
+
+@media (max-width: 1100px) and (min-width: 1001px) {
+ .hero{
+     padding-top: 180px;
+    }
+}
+
+@media (max-width: 1000px) and (min-width: 901px) {
+  .hero{
+      padding-top: 180px;
+    }
+}
+
+@media (max-width: 900px) and (min-width: 768px) {
+  .hero{
+     padding-top: 180px;
+    }
+}
+
+@media (max-width: 767px) and (min-width: 651px) {
+ .hero{
+      padding-top: 180px;
+    }
+}
+
+@media (max-width: 650px) and (min-width: 501px) {
+     .hero{
+         padding-top: 180px;
+    }
+}
+
+@media (max-width: 500px) and (min-width: 300px) {
+    .hero{
+       padding-top: 120px;
+    }
+}
+
+/* =============================== */
+
