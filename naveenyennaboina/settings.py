@@ -27,7 +27,7 @@ SECRET_KEY = '3pd66j6b2qc-akhs9ko+#m%=hykcph9(3ulz@bch0n95qu!8qu'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['localhost', 'naveen-yennaboina.herokuapp.com', "*"]
+ALLOWED_HOSTS = ['localhost', '.vercel.app', '.now.sh', "*"]
 
 
 
@@ -130,7 +130,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 
-STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
+STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles", 'static')
 
 STATIC_URL = '/static/'
 
